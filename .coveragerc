@@ -1,0 +1,16 @@
+[run]
+branch = True
+source =
+    utils
+    main
+omit =
+    */tests/*
+    */.venv/*
+    google-sheets-api.json
+
+[report]
+show_missing = True
+skip_covered = False
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:

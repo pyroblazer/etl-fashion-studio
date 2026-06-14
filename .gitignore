@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Build / packaging artifacts
+*.zip
+
+# Local secrets, do not commit
+.env
+google-sheets-api.json
+submission.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db

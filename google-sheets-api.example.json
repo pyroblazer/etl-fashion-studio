@@ -1,0 +1,26 @@
+{
+  "_INSTRUCTIONS": [
+    "PLACEHOLDER - replace this file (named google-sheets-api.json) with your",
+    "OWN Google service-account key. Steps:",
+    "1. Google Cloud Console -> create/select a project.",
+    "2. Enable the 'Google Sheets API' for the project.",
+    "3. IAM & Admin -> Service Accounts -> Create service account.",
+    "4. Open the service account -> Keys -> Add key -> JSON -> download.",
+    "5. Save the downloaded JSON as google-sheets-api.json next to this file.",
+    "6. In your Google Sheet, click Share and add the service-account email",
+    "   (client_email in the JSON) as an Editor.",
+    "7. Set the Sheet link-sharing to 'Anyone with the link' = Editor.",
+    "8. Put the spreadsheet id (from the sheet URL) into GOOGLE_SHEET_ID in .env.",
+    "The real google-sheets-api.json is git-ignored and must not be committed."
+  ],
+  "type": "service_account",
+  "project_id": "REPLACE_WITH_YOUR_PROJECT_ID",
+  "private_key_id": "REPLACE_WITH_YOUR_PRIVATE_KEY_ID",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nREPLACE_WITH_YOUR_PRIVATE_KEY\n-----END PRIVATE KEY-----\n",
+  "client_email": "fashion-studio@REPLACE_WITH_YOUR_PROJECT_ID.iam.gserviceaccount.com",
+  "client_id": "REPLACE_WITH_YOUR_CLIENT_ID",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fashion-studio%40REPLACE_WITH_YOUR_PROJECT_ID.iam.gserviceaccount.com"
+}
